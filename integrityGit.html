@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank User Form</title>
+</head>
+<body>
+
+<form action="/submit" method="post" enctype="multipart/form-data">
+    <h2>Personal Information:</h2>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+    <label for="mothersMaidenName">Mother's Maiden Name:</label>
+    <input type="text" id="mothersMaidenName" name="mothersMaidenName" required>
+
+    <label for="bvn">BVN (Bank Verification Number):</label>
+    <input type="text" id="bvn" name="bvn" required>
+
+    <h2>Account Details:</h2>
+    <label for="accountNumber">Account Number:</label>
+    <input type="text" id="accountNumber" name="accountNumber" required>
+
+    <label for="nationality">Nationality:</label>
+    <input type="text" id="nationality" name="nationality" required>
+
+    <label for="residentialAddress">Residential Address:</label>
+    <textarea id="residentialAddress" name="residentialAddress" required></textarea>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+
+    <label for="maritalStatus">Marital Status:</label>
+    <select id="maritalStatus" name="maritalStatus" required>
+        <option value="single">Single</option>
+        <option value="married">Married</option>
+        <option value="divorced">Divorced</option>
+    </select>
+
+    <label for="briefDescription">Brief Description of Yourself:</label>
+    <textarea id="briefDescription" name="briefDescription"></textarea>
+
+    <label for="passport">Upload Passport:</label>
+    <input type="file" id="passport" name="passport" accept="image/*" required>
+
+    <h2>Account Preferences:</h2>
+    <label for="accountType">Type of Account:</label>
+    <select id="accountType" name="accountType" required>
+        <option value="savings">Savings</option>
+        <option value="current">Current</option>
+    </select>
+
+    <label for="stateOfOrigin">State of Origin:</label>
+    <input type="text" id="stateOfOrigin" name="stateOfOrigin" required>
+
+    <h2>Social Media:</h2>
+    <label for="socialMediaLink">Link to Social Media Account:</label>
+    <input type="url" id="socialMediaLink" name="socialMediaLink">
+
+    <input type="submit" value="Submit">
+</form>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Types: Audio and Video</title>
+</head>
+<body>
+
+<h2>Audio Example:</h2>
+<audio controls>
+    <source src="wizkid-S2.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+</audio>
+
+<h2>Video Example:</h2>
+<video width="320" height="240" controls>
+    <source src="hello_Me.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+</body>
+</html>
+
+
+</body>
+</html>
